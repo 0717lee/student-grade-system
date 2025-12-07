@@ -1,25 +1,19 @@
-# 学生成绩管理系统 v1.0 
+学生成绩管理系统 v1.0
+项目状态：已完成
+三种使用方式
+1. Flask API（后端接口）
+运行后端服务，提供RESTful API接口：
+python app.py
+访问地址：http://127.0.0.1:5000
 
-## 项目状态：已完成
+2. Streamlit 可视化界面
+运行数据看板，提供可视化操作界面：
+streamlit run dashboard.py --server.port=5001
 
-### 三种使用方式
-
-1. **Flask API**（后端接口）
-   ```bash
-   cd python_version
-   python app.py
-   # 访问 http://127.0.0.1:5000/api/stats
-
-2.**Streamlit bash**
-   ```bash
-   cd python_version
-   streamlit run dashboard.py --server.port=5001
-
-3.**数据分析脚本**
-   ```bash
-   python stats.py
-   python stats_db.py
-
+3. 数据分析脚本
+运行独立的数据分析脚本：
+python stats.py
+python stats_db.py
 # student-grade-system
 
 基于C语言+MySQL的学生成绩管理系统
@@ -28,7 +22,7 @@
 
 ### 1. 获取学生列表
 **GET** `/api/students?page=1&per_page=20`
-
+git add README.md
 ### 2. 获取统计信息
 **GET** `/api/stats`
 
