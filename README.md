@@ -2,17 +2,19 @@
 
 ## 项目状态：已完成
 
-###  三种使用方式
+### 三种使用方式
 
 1. **Flask API**（后端接口）
    ```bash
    cd python_version
    python app.py
    # 访问 http://127.0.0.1:5000/api/stats
+
 2.**Streamlit bash**
    ```bash
    cd python_version
    streamlit run dashboard.py --server.port=5001
+
 3.**数据分析脚本**
    ```bash
    python stats.py
