@@ -1,24 +1,29 @@
-# 学生成绩管理系统 v1.0 ✅
+# 学生成绩管理系统 v1.0 
 
-## 项目状态：已完成（2025-01-01）
+## 项目状态：已完成
+
+---
 
 ## 🚀 三种使用方式
 
-### 1️⃣ Flask API（后端接口）
+### 1️⃣ Flask API
 ```bash
 cd python_version
 python app.py
-# 访问 http://127.0.0.1:5000/api/stats
 
-### 2️⃣ Streamlit界面（可视化）
+
+### 2️⃣ Streamlit界面
 ```bash
 cd python_version
 streamlit run dashboard.py --server.port=5001
 
+
 ### 3️⃣ 数据分析脚本
 ```bash
 python stats.py
-python stat_db.py
+
+python stats_db.py
+
 
 基于C语言+MySQL的学生成绩管理系统
 
